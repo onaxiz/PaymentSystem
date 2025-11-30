@@ -1,4 +1,4 @@
-## SubscriptionDemo
+## Subscription Template
 
 SwiftUI prototype that demonstrates an onboarding → paywall → main flow with a mocked billing service. The project is intentionally small, so you can review state propagation, MVVM layers, and async payment handling without touching a real StoreKit integration.
 
