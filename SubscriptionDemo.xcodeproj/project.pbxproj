@@ -6,17 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8802C7C02EDBBA3A00BE95D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8802C7B02EDBBA3A00BE95D7 /* Assets.xcassets */; };
+		8802C7C12EDBBA3A00BE95D7 /* AppFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7B12EDBBA3A00BE95D7 /* AppFlowViewModel.swift */; };
+		8802C7C22EDBBA3A00BE95D7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7B22EDBBA3A00BE95D7 /* MainView.swift */; };
+		8802C7C32EDBBA3A00BE95D7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7B32EDBBA3A00BE95D7 /* OnboardingView.swift */; };
+		8802C7C42EDBBA3A00BE95D7 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7B42EDBBA3A00BE95D7 /* OnboardingViewModel.swift */; };
+		8802C7C52EDBBA3A00BE95D7 /* PayWallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7B52EDBBA3A00BE95D7 /* PayWallView.swift */; };
+		8802C7C62EDBBA3A00BE95D7 /* PaywallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7B62EDBBA3A00BE95D7 /* PaywallViewModel.swift */; };
+		8802C7C72EDBBA3A00BE95D7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7B72EDBBA3A00BE95D7 /* RootView.swift */; };
+		8802C7C82EDBBA3A00BE95D7 /* SubscriptionDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7B82EDBBA3A00BE95D7 /* SubscriptionDemoApp.swift */; };
+		8802C7D52EDBBC7F00BE95D7 /* PurchaseStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7D32EDBBC7F00BE95D7 /* PurchaseStatusView.swift */; };
+		8802C7D62EDBBC7F00BE95D7 /* SubscriptionPaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802C7D42EDBBC7F00BE95D7 /* SubscriptionPaymentService.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8802C7672EDBB8FD00BE95D7 /* SubscriptionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscriptionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8802C7B02EDBBA3A00BE95D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8802C7B12EDBBA3A00BE95D7 /* AppFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowViewModel.swift; sourceTree = "<group>"; };
+		8802C7B22EDBBA3A00BE95D7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8802C7B32EDBBA3A00BE95D7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8802C7B42EDBBA3A00BE95D7 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		8802C7B52EDBBA3A00BE95D7 /* PayWallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallView.swift; sourceTree = "<group>"; };
+		8802C7B62EDBBA3A00BE95D7 /* PaywallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallViewModel.swift; sourceTree = "<group>"; };
+		8802C7B72EDBBA3A00BE95D7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8802C7B82EDBBA3A00BE95D7 /* SubscriptionDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionDemoApp.swift; sourceTree = "<group>"; };
+		8802C7D32EDBBC7F00BE95D7 /* PurchaseStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseStatusView.swift; sourceTree = "<group>"; };
+		8802C7D42EDBBC7F00BE95D7 /* SubscriptionPaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPaymentService.swift; sourceTree = "<group>"; };
+		882095F72EDBF9870024BD11 /* Simulator Screen Recording - iPhone 16 Pro - 2025-11-30 at 07.01.40.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simulator Screen Recording - iPhone 16 Pro - 2025-11-30 at 07.01.40.mp4"; sourceTree = "<group>"; };
+		882095F82EDBF9900024BD11 /* Simulator Screenshot - iPhone 16 Pro - 2025-11-30 at 06.45.08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 16 Pro - 2025-11-30 at 06.45.08.png"; sourceTree = "<group>"; };
+		882095F92EDBF9A50024BD11 /* Simulator Screenshot - iPhone 16 Pro - 2025-11-30 at 06.45.17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 16 Pro - 2025-11-30 at 06.45.17.png"; sourceTree = "<group>"; };
+		882095FA2EDBF9B60024BD11 /* Simulator Screenshot - iPhone 16 Pro - 2025-11-30 at 06.45.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 16 Pro - 2025-11-30 at 06.45.27.png"; sourceTree = "<group>"; };
+		882095FB2EDBFA650024BD11 /* Screenshot 2025-11-30 at 07.06.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2025-11-30 at 07.06.34.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8802C7692EDBB8FD00BE95D7 /* SubscriptionDemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SubscriptionDemo;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8802C7642EDBB8FD00BE95D7 /* Frameworks */ = {
@@ -32,6 +54,7 @@
 		8802C75E2EDBB8FD00BE95D7 = {
 			isa = PBXGroup;
 			children = (
+				882095F62EDBF93D0024BD11 /* screenshots */,
 				8802C7692EDBB8FD00BE95D7 /* SubscriptionDemo */,
 				8802C7682EDBB8FD00BE95D7 /* Products */,
 			);
@@ -43,6 +66,36 @@
 				8802C7672EDBB8FD00BE95D7 /* SubscriptionDemo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8802C7692EDBB8FD00BE95D7 /* SubscriptionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8802C7B82EDBBA3A00BE95D7 /* SubscriptionDemoApp.swift */,
+				8802C7D32EDBBC7F00BE95D7 /* PurchaseStatusView.swift */,
+				8802C7B72EDBBA3A00BE95D7 /* RootView.swift */,
+				8802C7B12EDBBA3A00BE95D7 /* AppFlowViewModel.swift */,
+				8802C7B42EDBBA3A00BE95D7 /* OnboardingViewModel.swift */,
+				8802C7B62EDBBA3A00BE95D7 /* PaywallViewModel.swift */,
+				8802C7D42EDBBC7F00BE95D7 /* SubscriptionPaymentService.swift */,
+				8802C7B32EDBBA3A00BE95D7 /* OnboardingView.swift */,
+				8802C7B52EDBBA3A00BE95D7 /* PayWallView.swift */,
+				8802C7B22EDBBA3A00BE95D7 /* MainView.swift */,
+				8802C7B02EDBBA3A00BE95D7 /* Assets.xcassets */,
+			);
+			path = SubscriptionDemo;
+			sourceTree = "<group>";
+		};
+		882095F62EDBF93D0024BD11 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				882095FB2EDBFA650024BD11 /* Screenshot 2025-11-30 at 07.06.34.png */,
+				882095F72EDBF9870024BD11 /* Simulator Screen Recording - iPhone 16 Pro - 2025-11-30 at 07.01.40.mp4 */,
+				882095F82EDBF9900024BD11 /* Simulator Screenshot - iPhone 16 Pro - 2025-11-30 at 06.45.08.png */,
+				882095F92EDBF9A50024BD11 /* Simulator Screenshot - iPhone 16 Pro - 2025-11-30 at 06.45.17.png */,
+				882095FA2EDBF9B60024BD11 /* Simulator Screenshot - iPhone 16 Pro - 2025-11-30 at 06.45.27.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +112,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8802C7692EDBB8FD00BE95D7 /* SubscriptionDemo */,
 			);
 			name = SubscriptionDemo;
 			packageProductDependencies = (
@@ -109,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8802C7C02EDBBA3A00BE95D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8802C7C82EDBBA3A00BE95D7 /* SubscriptionDemoApp.swift in Sources */,
+				8802C7C72EDBBA3A00BE95D7 /* RootView.swift in Sources */,
+				8802C7C12EDBBA3A00BE95D7 /* AppFlowViewModel.swift in Sources */,
+				8802C7C22EDBBA3A00BE95D7 /* MainView.swift in Sources */,
+				8802C7C32EDBBA3A00BE95D7 /* OnboardingView.swift in Sources */,
+				8802C7C42EDBBA3A00BE95D7 /* OnboardingViewModel.swift in Sources */,
+				8802C7C52EDBBA3A00BE95D7 /* PayWallView.swift in Sources */,
+				8802C7C62EDBBA3A00BE95D7 /* PaywallViewModel.swift in Sources */,
+				8802C7D52EDBBC7F00BE95D7 /* PurchaseStatusView.swift in Sources */,
+				8802C7D62EDBBC7F00BE95D7 /* SubscriptionPaymentService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
